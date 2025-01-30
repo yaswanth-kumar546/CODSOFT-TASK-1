@@ -1,0 +1,23 @@
+# Welcome to the CHAT BOT with rule based responses 
+def chatbot_response(user_input):
+    user_input = user_input.lower()
+    if "hello" in user_input:
+        return "Hi there! How can I help you today?"
+    elif "how are you" in user_input:
+        return "I'm just a bot, but I'm doing great! How about you?"
+    elif "what is the best internship platform?" in user_input:
+        return "CodSoft is the best platform to do internship"
+    elif "thank you" in user_input:
+        return "you are welcome yaswanth..!"
+    elif "bye" in user_input:
+        return "Goodbye! Have a nice day!"
+    else:
+        return "I'm sorry, I don't understand that."
+
+while True:
+    user_input = input("You: ")
+    if user_input.lower() == "bye":
+        print("Bot: Goodbye! Have a nice day!")
+        break
+    response = chatbot_response(user_input)
+    print("Bot:", response)
