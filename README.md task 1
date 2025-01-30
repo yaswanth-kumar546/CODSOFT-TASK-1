@@ -1,0 +1,27 @@
+NAME: Yejarla yaswanth Kumar
+COMPANY: CodSoft
+DOMAIN: Artificial Intelligence
+Intern ID: CS25AZ1120
+Duration: 01 - February to 28 February 2025
+
+
+OVERVIEW OF THE TASK 1:
+This project implements a simple rule-based chatbot in Python, designed to interact with users through predefined responses based on their input.
+
+Features:
+   * Greetings and Farewells: Responds to "hello," "how are you," and "bye" with appropriate messages.
+
+   * Platform Recommendation: Provides a recommendation for an internship platform.
+ 
+   * Polite Acknowledgment: Replies with gratitude when the user says "thank you."
+
+   * Error Handling: Apologizes for unrecognized inputs.
+
+Usage:
+   * Run the Script: Execute the Python script.
+
+   * Interact with the Chatbot: Type your messages to interact with the chatbot.
+
+   * Exit: Type "bye" to end the conversation and close the program.
+
+This project is a great starting point for building more complex conversational agents. Happy coding!
